@@ -9,7 +9,7 @@
         "id_list": []
     },
     "items_buy_prohibited": {},
-    "customization_seller": true,
+    "customization_seller": false,
     "name": "Ivan Samoylov",
     "surname": "Unknown",
     "nickname": "Painter",
