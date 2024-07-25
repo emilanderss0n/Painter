@@ -1,7 +1,7 @@
 {
-  "painter_1": {
+  "668aacd1dee3de3ce276fdef": {
     "QuestName": "Taped Up",
-    "_id": "painter_1",
+    "_id": "668aacd1dee3de3ce276fdef",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_1 changeQuestMessageText",
     "conditions": {
@@ -79,7 +79,7 @@
         {
           "id": "painter_1_Reward_2",
           "index": 1,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.02"
         },
@@ -106,12 +106,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_1 startedMessageText",
     "successMessageText": "painter_1 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
   },
-  "painter_2": {
+  "668aace8ff74aecfbcfbe9e6": {
     "QuestName": "Topographics",
-    "_id": "painter_2",
+    "_id": "668aace8ff74aecfbcfbe9e6",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_2 changeQuestMessageText",
     "conditions": {
@@ -146,7 +146,7 @@
           "status": [
             4
           ],
-          "target": "painter_1",
+          "target": "668aacd1dee3de3ce276fdef",
           "visibilityConditions": []
         }
       ],
@@ -173,9 +173,26 @@
           "value": "6500"
         },
         {
-          "id": "painter_2_Reward_4",
+          "findInRaid": true,
+          "id": "painter_2_Reward_1",
           "index": 1,
-          "target": "PAINTERSHOP",
+          "items": [
+            {
+              "_id": "painter_2_Reward_Roubles",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 35500
+              }
+            }
+          ],
+          "target": "painter_2_Reward_Roubles",
+          "type": "Item",
+          "value": "35500"
+        },
+        {
+          "id": "painter_2_Reward_2",
+          "index": 2,
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.02"
         }
@@ -185,12 +202,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_2 description",
     "successMessageText": "painter_2 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
   },
-  "painter_3": {
+  "668aad1d97c0b19780ebf9c2": {
     "QuestName": "Dig Deep",
-    "_id": "painter_3",
+    "_id": "668aad1d97c0b19780ebf9c2",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_3 changeQuestMessageText",
     "conditions": {
@@ -240,7 +257,7 @@
           "status": [
             4
           ],
-          "target": "painter_2",
+          "target": "668aace8ff74aecfbcfbe9e6",
           "visibilityConditions": []
         }
       ],
@@ -269,7 +286,7 @@
         {
           "id": "painter_3_Reward_1",
           "index": 1,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.02"
         },
@@ -282,13 +299,13 @@
               "_id": "painter_3_Reward_Roubles",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
-                "StackObjectsCount": 31000
+                "StackObjectsCount": 39000
               }
             }
           ],
           "target": "painter_3_Reward_Roubles",
           "type": "Item",
-          "value": "30500"
+          "value": "39500"
         },
         {
           "findInRaid": true,
@@ -313,12 +330,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_3 description",
     "successMessageText": "painter_3 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "Elimination"
   },
-  "painter_4": {
+  "668aad2b0f0c52ff9b51625d": {
     "QuestName": "Workshop Refurbishment",
-    "_id": "painter_4",
+    "_id": "668aad2b0f0c52ff9b51625d",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_4 changeQuestMessageText",
     "conditions": {
@@ -387,7 +404,7 @@
           "status": [
             4
           ],
-          "target": "painter_3",
+          "target": "668aad1d97c0b19780ebf9c2",
           "visibilityConditions": []
         }
       ],
@@ -433,7 +450,7 @@
         {
           "id": "painter_4_Reward_3",
           "index": 2,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.03"
         }
@@ -443,12 +460,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_4 startedMessageText",
     "successMessageText": "painter_4 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
   },
-  "painter_5": {
+  "668aad328a1b4ad3818169cf": {
     "QuestName": "Radio Silence",
-    "_id": "painter_5",
+    "_id": "668aad328a1b4ad3818169cf",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_5 changeQuestMessageText",
     "conditions": {
@@ -483,7 +500,7 @@
           "status": [
             4
           ],
-          "target": "painter_4",
+          "target": "668aad2b0f0c52ff9b51625d",
           "visibilityConditions": []
         }
       ],
@@ -546,7 +563,7 @@
         {
           "id": "painter_5_Reward_3",
           "index": 3,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.03"
         }
@@ -556,12 +573,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_5 startedMessageText",
     "successMessageText": "painter_5 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
   },
-  "painter_6": {
+  "668aad49a21e4d37c83d4ffc": {
     "QuestName": "Dangerous Waters",
-    "_id": "painter_6",
+    "_id": "668aad49a21e4d37c83d4ffc",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_6 changeQuestMessageText",
     "conditions": {
@@ -611,7 +628,7 @@
           "status": [
             4
           ],
-          "target": "painter_5",
+          "target": "668aad328a1b4ad3818169cf",
           "visibilityConditions": []
         }
       ],
@@ -640,7 +657,7 @@
         {
           "id": "painter_6_Reward_1",
           "index": 1,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.04"
         },
@@ -684,12 +701,12 @@
     "side": "Pmc",
     "startedMessageText": "painter_6 description",
     "successMessageText": "painter_6 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "Elimination"
   },
-  "painter_7": {
+  "668aad3c3ff8f5b258e3a65b": {
     "QuestName": "Born Free",
-    "_id": "painter_7",
+    "_id": "668aad3c3ff8f5b258e3a65b",
     "canShowNotificationsInGame": true,
     "changeQuestMessageText": "painter_7 changeQuestMessageText",
     "conditions": {
@@ -708,7 +725,7 @@
           "target": [
             "590c5a7286f7747884343aea"
           ],
-          "value": "6",
+          "value": "10",
           "visibilityConditions": []
         },
         {
@@ -725,7 +742,7 @@
           "target": [
             "5d6fc78386f77449d825f9dc"
           ],
-          "value": "6",
+          "value": "10",
           "visibilityConditions": []
         },
         {
@@ -742,7 +759,7 @@
           "target": [
             "5d6fc87386f77449db3db94e"
           ],
-          "value": "6",
+          "value": "10",
           "visibilityConditions": []
         },
         {
@@ -775,7 +792,7 @@
           "status": [
             4
           ],
-          "target": "painter_6",
+          "target": "668aad49a21e4d37c83d4ffc",
           "visibilityConditions": []
         }
       ],
@@ -829,27 +846,13 @@
           ],
           "loyaltyLevel": 4,
           "target": "PA_CONTAINER",
-          "traderId": "PAINTERSHOP",
+          "traderId": "668aaff35fd574b6dcc4a686",
           "type": "AssortmentUnlock"
         },
         {
           "id": "painter_7_Reward_4",
           "index": 3,
-          "items": [
-            {
-              "_id": "PA_556_M855A1",
-              "_tpl": "54527ac44bdc2d36668b4567"
-            }
-          ],
-          "loyaltyLevel": 4,
-          "target": "PA_556_M855A1",
-          "traderId": "PAINTERSHOP",
-          "type": "AssortmentUnlock"
-        },
-        {
-          "id": "painter_7_Reward_5",
-          "index": 4,
-          "target": "PAINTERSHOP",
+          "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
           "value": "0.04"
         }
@@ -859,7 +862,139 @@
     "side": "Pmc",
     "startedMessageText": "painter_7 startedMessageText",
     "successMessageText": "painter_7 successMessageText",
-    "traderId": "PAINTERSHOP",
+    "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
+  },
+  "668c18eb12542b3c3ff6e20f": {
+    "QuestName": "Shrink Wrap",
+    "_id": "668c18eb12542b3c3ff6e20f",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_8 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "painter_8_AFF_0_Kills",
+                "target": "AnyPmc",
+                "value": "1"
+              }
+            ],
+            "id": "painter_8_AFF_0_Counter"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "painter_8_AFF_0",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "100",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "painter_8_AFS_1",
+          "index": 1,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "668aad3c3ff8f5b258e3a65b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_8 declinePlayerMessage",
+    "description": "painter_8 description",
+    "failMessageText": "painter_8 failMessageText",
+    "image": "/files/quest/icon/painter_8_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "5704e554d2720bac5b8b456e",
+    "name": "painter_8 name",
+    "note": "painter_8 note",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "painter_8_Reward_0",
+          "index": 0,
+          "type": "Experience",
+          "value": "6500"
+        },
+        {
+          "id": "painter_8_Reward_1",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "value": "0.04"
+        },
+        {
+          "findInRaid": true,
+          "id": "painter_8_Reward_2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "painter_8_Reward_Roubles",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 120000
+              }
+            }
+          ],
+          "target": "painter_8_Reward_Roubles",
+          "type": "Item",
+          "value": "120000"
+        },
+        {
+          "id": "painter_8_Reward_3",
+          "index": 3,
+          "items": [
+            {
+              "_id": "PA_556_M855A1",
+              "_tpl": "54527ac44bdc2d36668b4567"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "PA_556_M855A1",
+          "traderId": "668aaff35fd574b6dcc4a686",
+          "type": "AssortmentUnlock"
+        },
+        {
+          "id": "painter_8_Reward_4",
+          "index": 4,
+          "items": [
+            {
+              "_id": "PA_762_M61",
+              "_tpl": "5a6086ea4f39f99cd479502f"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "PA_762_M61",
+          "traderId": "668aaff35fd574b6dcc4a686",
+          "type": "AssortmentUnlock"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_8 description",
+    "successMessageText": "painter_8 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Elimination"
   }
 }

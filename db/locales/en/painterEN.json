@@ -44,5 +44,10 @@
     "painter_7_AFF_1": "Find and handover Gunpowder Kite",
     "painter_7_AFF_2": "Find and handover Gunpowder Eagle",
     "painter_7_AFF_3": "Find and handover Gunpowder Hawk",
-    "painter_7_AFF_4": "Find and handover Piece of plexiglass"
+    "painter_7_AFF_4": "Find and handover Piece of plexiglass",
+    "painter_8 name": "Shrink Wrap",
+    "painter_8 description": "There is always a time to go after what is yours. It's time to get bloody creative. Kill them all.",
+    "painter_8 failMessageText": "",
+    "painter_8 successMessageText": "I didn't think you had it in you. Good job.",
+    "painter_8_AFF_0": "Eliminate 100 PMC"
 }

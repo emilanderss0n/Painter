@@ -18,8 +18,60 @@
 			"upd": {
 				"UnlimitedCount": true,
 				"StackObjectsCount": 9999999,
-				"BuyRestrictionMax": 120,
+				"BuyRestrictionMax": 180,
 				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "PA_762_M61",
+			"_tpl": "5a6086ea4f39f99cd479502f",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": true,
+				"StackObjectsCount": 9999999,
+				"BuyRestrictionMax": 90,
+				"BuyRestrictionCurrent": 0
+			}
+		},
+		{
+			"_id": "668ff5bde41a0cce3b142464",
+			"_tpl": "668ff5bde41a0cce3b142464",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 999
+			}
+		},
+		{
+			"_id": "668ff5bde41a0cce3b142465",
+			"_tpl": "668ff5bde41a0cce3b142464",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 999
+			}
+		},
+		{
+			"_id": "6699546547ad52e0fccf6da9",
+			"_tpl": "6699546547ad52e0fccf6da9",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 999
+			}
+		},
+		{
+			"_id": "6699546547ad52e0fccf6da0",
+			"_tpl": "6699546547ad52e0fccf6da9",
+			"parentId": "hideout",
+			"slotId": "hideout",
+			"upd": {
+				"UnlimitedCount": false,
+				"StackObjectsCount": 999
 			}
 		}
 	],
@@ -35,14 +87,59 @@
 		"PA_556_M855A1": [
 			[
 				{
-					"count": 420,
+					"count": 680,
 					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"PA_762_M61": [
+			[
+				{
+					"count": 980,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"668ff5bde41a0cce3b142464": [
+			[
+				{
+					"count": 500000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"668ff5bde41a0cce3b142465": [
+			[
+				{
+					"count": 60,
+					"_tpl": "5d235b4d86f7742e017bc88a"
+				}
+			]
+		],
+		"6699546547ad52e0fccf6da9": [
+			[
+				{
+					"count": 400000,
+					"_tpl": "5449016a4bdc2d6f028b456f"
+				}
+			]
+		],
+		"6699546547ad52e0fccf6da0": [
+			[
+				{
+					"count": 50,
+					"_tpl": "5d235b4d86f7742e017bc88a"
 				}
 			]
 		]
 	},
 	"loyal_level_items": {
 		"PA_CONTAINER": 4,
-		"PA_556_M855A1": 4
+		"PA_556_M855A1": 4,
+		"PA_762_M61": 4,
+		"668ff5bde41a0cce3b142464": 2,
+		"668ff5bde41a0cce3b142465": 4,
+		"6699546547ad52e0fccf6da9": 2,
+		"6699546547ad52e0fccf6da0": 4
 	}
 }
