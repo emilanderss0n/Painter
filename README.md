@@ -1,4 +1,4 @@
-https://i.imgur.com/2GGvITe.jpeg
+![alt text](https://i.imgur.com/2GGvITe.jpeg)
 
 Ivan Samoylov is a master craftsman renowned for his exceptional skill in creating exquisite weapon cosmetics. With an innate talent for blending artistry and functionality, he transforms ordinary weapons into mesmerizing works of art.
 
@@ -7,7 +7,7 @@ Ivan Samoylov is a master craftsman renowned for his exceptional skill in creati
 
 Painter is unlocked at player level 1. You can sell him information barter items (SSD, intelligence folders, etc). Painter doesn't require any other mod to function. But you should install at least one of my content mods.
 
-https://i.imgur.com/2GGvITe.jpeg
+![alt text](https://i.imgur.com/7Tr6tbC.png)
 
 Painter new loyalty level requirements
 
