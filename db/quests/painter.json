@@ -11,15 +11,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_1_AFF_1",
+          "id": "672e31c3262af62a8eb157cd",
           "index": 0,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "57347c1124597737fb1379e3"
-          ],
+          "target": ["57347c1124597737fb1379e3"],
           "value": "3",
           "visibilityConditions": []
         },
@@ -28,15 +26,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_1_AFF_2",
+          "id": "672e31d7701987cf15698b30",
           "index": 1,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "5734795124597738002c6176"
-          ],
+          "target": ["5734795124597738002c6176"],
           "value": "3",
           "visibilityConditions": []
         }
@@ -47,7 +43,7 @@
           "conditionType": "Level",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_1_AFS_0",
+          "id": "672e31eeb489152e7707cb72",
           "index": 0,
           "parentId": "",
           "value": 1,
@@ -71,13 +67,13 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_1_Reward_1",
+          "id": "672e320f0ed0c138d60be692",
           "index": 0,
           "type": "Experience",
           "value": "2500"
         },
         {
-          "id": "painter_1_Reward_2",
+          "id": "672e321a311745b947c86297",
           "index": 1,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -85,18 +81,18 @@
         },
         {
           "findInRaid": true,
-          "id": "painter_1_Reward_3",
+          "id": "672e322347a9f6b4122f26c1",
           "index": 2,
           "items": [
             {
-              "_id": "painter_1_Reward_Roubles",
+              "_id": "672e322618e2333119497dc9",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 21000
               }
             }
           ],
-          "target": "painter_1_Reward_Roubles",
+          "target": "672e322618e2333119497dc9",
           "type": "Item",
           "value": "20500"
         }
@@ -121,15 +117,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_2_AFF_0",
+          "id": "672e323797a187aabc88ca4a",
           "index": 1,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "62a0a124de7ac81993580542"
-          ],
+          "target": ["62a0a124de7ac81993580542"],
           "value": "1",
           "visibilityConditions": []
         }
@@ -140,12 +134,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_2_AFS_1",
+          "id": "672e324934b8ff780512ec50",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aacd1dee3de3ce276fdef",
           "visibilityConditions": []
         }
@@ -167,30 +159,30 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_2_Reward_0",
+          "id": "672e3258a638ea171fc6a0b6",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
           "findInRaid": true,
-          "id": "painter_2_Reward_1",
+          "id": "672e325a9f4a5085cc20a7ec",
           "index": 1,
           "items": [
             {
-              "_id": "painter_2_Reward_Roubles",
+              "_id": "672e325c7c1121e5395d35cd",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 35500
               }
             }
           ],
-          "target": "painter_2_Reward_Roubles",
+          "target": "672e325c7c1121e5395d35cd",
           "type": "Item",
           "value": "35500"
         },
         {
-          "id": "painter_2_Reward_2",
+          "id": "672e3263804e6e913647b594",
           "index": 2,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -219,24 +211,22 @@
               {
                 "compareMethod": ">=",
                 "conditionType": "Kills",
-                "id": "painter_3_AFF_0_Kills",
+                "id": "672e326e957ba4b27be8a570",
                 "target": "Savage",
                 "value": "1"
               },
               {
                 "conditionType": "Location",
-                "id": "painter_3_AFF_0_Location",
-                "target": [
-                  "bigmap"
-                ]
+                "id": "672e327ba37230a48fc86c5f",
+                "target": ["bigmap"]
               }
             ],
-            "id": "painter_3_AFF_0_Counter"
+            "id": "672e3285d8846577b4de301c"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_3_AFF_0",
+          "id": "672e3295e4287b00f37700c1",
           "index": 1,
           "oneSessionOnly": false,
           "parentId": "",
@@ -251,12 +241,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_3_AFS_1",
+          "id": "672e32a15f33429ec9dd1864",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aace8ff74aecfbcfbe9e6",
           "visibilityConditions": []
         }
@@ -278,13 +266,13 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_3_Reward_0",
+          "id": "672e32ac9fc5610c6495993a",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
-          "id": "painter_3_Reward_1",
+          "id": "672e32aeaa0ec3f416123e5e",
           "index": 1,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -292,35 +280,35 @@
         },
         {
           "findInRaid": true,
-          "id": "painter_3_Reward_2",
+          "id": "672e32affeac239b74d81f71",
           "index": 2,
           "items": [
             {
-              "_id": "painter_3_Reward_Roubles",
+              "_id": "672e32b1b37629655d837d0a",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 39000
               }
             }
           ],
-          "target": "painter_3_Reward_Roubles",
+          "target": "672e32b1b37629655d837d0a",
           "type": "Item",
           "value": "39500"
         },
         {
           "findInRaid": true,
-          "id": "painter_3_Reward_3",
+          "id": "672e32b93e3c3479564195ec",
           "index": 3,
           "items": [
             {
-              "_id": "painter_3_Reward_Whiskey",
+              "_id": "672e32bb2333f51f9c6c08c4",
               "_tpl": "5d403f9186f7743cac3f229b",
               "upd": {
                 "StackObjectsCount": 3
               }
             }
           ],
-          "target": "painter_3_Reward_Whiskey",
+          "target": "672e32bb2333f51f9c6c08c4",
           "type": "Item",
           "value": "3"
         }
@@ -345,15 +333,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_4_AFF_1",
+          "id": "672e32c9be76a4ab7682ece9",
           "index": 0,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "590c2e1186f77425357b6124"
-          ],
+          "target": ["590c2e1186f77425357b6124"],
           "value": "1",
           "visibilityConditions": []
         },
@@ -362,15 +348,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_4_AFF_2",
+          "id": "672e32d8386445826a2adfee",
           "index": 1,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "57347c5b245977448d35f6e1"
-          ],
+          "target": ["57347c5b245977448d35f6e1"],
           "value": "3",
           "visibilityConditions": []
         },
@@ -379,15 +363,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_4_AFF_3",
+          "id": "672e32e7eb649d0132dfc0db",
           "index": 2,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "57347c77245977448d35f6e2"
-          ],
+          "target": ["57347c77245977448d35f6e2"],
           "value": "3",
           "visibilityConditions": []
         }
@@ -398,12 +380,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_4_AFS_1",
+          "id": "672e32f318a4d0481537902d",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aad1d97c0b19780ebf9c2",
           "visibilityConditions": []
         }
@@ -425,30 +405,30 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_4_Reward_1",
+          "id": "672e32f713d2c32fd0ab716b",
           "index": 0,
           "type": "Experience",
           "value": "2500"
         },
         {
           "findInRaid": true,
-          "id": "painter_4_Reward_2",
+          "id": "672e32f8f7a6c399a761a62f",
           "index": 1,
           "items": [
             {
-              "_id": "painter_4_Reward_Virtex",
+              "_id": "672e32f908b40ed46e9aa44a",
               "_tpl": "5c05308086f7746b2101e90b",
               "upd": {
                 "StackObjectsCount": 1
               }
             }
           ],
-          "target": "painter_4_Reward_Virtex",
+          "target": "672e32f908b40ed46e9aa44a",
           "type": "Item",
           "value": "1"
         },
         {
-          "id": "painter_4_Reward_3",
+          "id": "672e32fe9bd3504432668960",
           "index": 2,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -475,15 +455,13 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_5_AFF_1",
+          "id": "672e33074cd02462a61760a2",
           "index": 0,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "5c052f6886f7746b1e3db148"
-          ],
+          "target": ["5c052f6886f7746b1e3db148"],
           "value": "1",
           "visibilityConditions": []
         }
@@ -494,12 +472,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_5_AFS_1",
+          "id": "672e33139f6ec10a5d314e75",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aad2b0f0c52ff9b51625d",
           "visibilityConditions": []
         }
@@ -521,47 +497,47 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_5_Reward_1",
+          "id": "672e331a18ecf91f7135cfbc",
           "index": 0,
           "type": "Experience",
           "value": "2500"
         },
         {
           "findInRaid": true,
-          "id": "painter_5_Reward_2",
+          "id": "672e331ca9ec1a9b0ff50961",
           "index": 1,
           "items": [
             {
-              "_id": "painter_5_Reward_Battery",
+              "_id": "672e331de1cb340521837424",
               "_tpl": "5e2aedd986f7746d404f3aa4",
               "upd": {
                 "StackObjectsCount": 3
               }
             }
           ],
-          "target": "painter_5_Reward_Battery",
+          "target": "672e331de1cb340521837424",
           "type": "Item",
           "value": "1"
         },
         {
           "findInRaid": true,
-          "id": "painter_5_Reward_2",
+          "id": "672e33236d76f0037ade6462",
           "index": 2,
           "items": [
             {
-              "_id": "painter_5_Reward_Roubles",
+              "_id": "672e332433dd94c340abaf64",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 51000
               }
             }
           ],
-          "target": "painter_5_Reward_Roubles",
+          "target": "672e332433dd94c340abaf64",
           "type": "Item",
           "value": "50500"
         },
         {
-          "id": "painter_5_Reward_3",
+          "id": "672e332b978a9cce93f8aba0",
           "index": 3,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -590,24 +566,22 @@
               {
                 "compareMethod": ">=",
                 "conditionType": "Kills",
-                "id": "painter_6_AFF_0_Kills",
+                "id": "672e3337719c01963ea93651",
                 "target": "AnyPmc",
                 "value": "1"
               },
               {
                 "conditionType": "Location",
-                "id": "painter_6_AFF_0_Location",
-                "target": [
-                  "Shoreline"
-                ]
+                "id": "672e333bec632da64d734e2d",
+                "target": ["Shoreline"]
               }
             ],
-            "id": "painter_6_AFF_0_Counter"
+            "id": "672e33405decb9faa41db3ca"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_6_AFF_0",
+          "id": "672e334a39064994fc3bd86f",
           "index": 1,
           "oneSessionOnly": false,
           "parentId": "",
@@ -622,12 +596,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_6_AFS_1",
+          "id": "672e33594fd1e90a00dc344e",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aad328a1b4ad3818169cf",
           "visibilityConditions": []
         }
@@ -649,13 +621,13 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_6_Reward_0",
+          "id": "672e335d2f242b0ba98b196d",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
-          "id": "painter_6_Reward_1",
+          "id": "672e33605cc6a53650006991",
           "index": 1,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -663,35 +635,35 @@
         },
         {
           "findInRaid": true,
-          "id": "painter_6_Reward_2",
+          "id": "672e3362123bcde9f627012d",
           "index": 2,
           "items": [
             {
-              "_id": "painter_6_Reward_Roubles",
+              "_id": "672e3363e49a3c871e52b94c",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 80000
               }
             }
           ],
-          "target": "painter_6_Reward_Roubles",
+          "target": "672e3363e49a3c871e52b94c",
           "type": "Item",
           "value": "80000"
         },
         {
           "findInRaid": true,
-          "id": "painter_6_Reward_3",
+          "id": "672e33688da7b757361b0fc3",
           "index": 3,
           "items": [
             {
-              "_id": "painter_6_Reward_Moonshine",
+              "_id": "672e33699042e3aae2094982",
               "_tpl": "5d1b376e86f774252519444e",
               "upd": {
                 "StackObjectsCount": 1
               }
             }
           ],
-          "target": "painter_6_Reward_Moonshine",
+          "target": "672e33699042e3aae2094982",
           "type": "Item",
           "value": "1"
         }
@@ -716,16 +688,14 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_7_AFF_1",
+          "id": "672e33753bc2b4d394df066d",
           "index": 0,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "590c5a7286f7747884343aea"
-          ],
-          "value": "10",
+          "target": ["590c5a7286f7747884343aea"],
+          "value": "7",
           "visibilityConditions": []
         },
         {
@@ -733,16 +703,14 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_7_AFF_2",
+          "id": "672e338893682a2593697a37",
           "index": 1,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "5d6fc78386f77449d825f9dc"
-          ],
-          "value": "10",
+          "target": ["5d6fc78386f77449d825f9dc"],
+          "value": "7",
           "visibilityConditions": []
         },
         {
@@ -750,16 +718,14 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_7_AFF_3",
+          "id": "672e339460bf295e1f0771b5",
           "index": 2,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "5d6fc87386f77449db3db94e"
-          ],
-          "value": "10",
+          "target": ["5d6fc87386f77449db3db94e"],
+          "value": "7",
           "visibilityConditions": []
         },
         {
@@ -767,16 +733,14 @@
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_7_AFF_4",
+          "id": "672e339f6a58d92a168c9845",
           "index": 3,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": true,
           "parentId": "",
-          "target": [
-            "59e366c186f7741778269d85"
-          ],
-          "value": "10",
+          "target": ["59e366c186f7741778269d85"],
+          "value": "7",
           "visibilityConditions": []
         }
       ],
@@ -786,12 +750,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_7_AFS_1",
+          "id": "672e33a8cd1e9476551db9ea",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aad49a21e4d37c83d4ffc",
           "visibilityConditions": []
         }
@@ -813,44 +775,44 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_7_Reward_1",
+          "id": "672e33acba7dc114726c9ccc",
           "index": 0,
           "type": "Experience",
           "value": "2500"
         },
         {
           "findInRaid": true,
-          "id": "painter_7_Reward_2",
+          "id": "672e33ad3e0a2d403e1ae5b4",
           "index": 1,
           "items": [
             {
-              "_id": "painter_7_Reward_Roubles",
+              "_id": "672e33ad2bd6d0ddc2311ea2",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 110000
               }
             }
           ],
-          "target": "painter_7_Reward_Roubles",
+          "target": "672e33ad2bd6d0ddc2311ea2",
           "type": "Item",
           "value": "110000"
         },
         {
-          "id": "painter_7_Reward_3",
+          "id": "672e33b369515ce7af7df6ff",
           "index": 2,
           "items": [
             {
-              "_id": "PA_CONTAINER",
+              "_id": "672e2804a0529208b4e10e18",
               "_tpl": "5c0a840b86f7742ffa4f2482"
             }
           ],
           "loyaltyLevel": 4,
-          "target": "PA_CONTAINER",
+          "target": "672e2804a0529208b4e10e18",
           "traderId": "668aaff35fd574b6dcc4a686",
           "type": "AssortmentUnlock"
         },
         {
-          "id": "painter_7_Reward_4",
+          "id": "672e33b879e2d665bfa01bcc",
           "index": 3,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -879,17 +841,17 @@
               {
                 "compareMethod": ">=",
                 "conditionType": "Kills",
-                "id": "painter_8_AFF_0_Kills",
+                "id": "672e33c211d2133aed1ccd66",
                 "target": "AnyPmc",
                 "value": "1"
               }
             ],
-            "id": "painter_8_AFF_0_Counter"
+            "id": "672e33c4c2f8b0ce34a78768"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_8_AFF_0",
+          "id": "672e33c986ff5b896eb503cd",
           "index": 1,
           "oneSessionOnly": false,
           "parentId": "",
@@ -904,12 +866,10 @@
           "conditionType": "Quest",
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "painter_8_AFS_1",
+          "id": "6748f226384e5edc1e86a07a",
           "index": 1,
           "parentId": "",
-          "status": [
-            4
-          ],
+          "status": [4],
           "target": "668aad3c3ff8f5b258e3a65b",
           "visibilityConditions": []
         }
@@ -922,7 +882,7 @@
     "image": "/files/quest/icon/painter_8_thumbnail.png",
     "instantComplete": false,
     "isKey": false,
-    "location": "5704e554d2720bac5b8b456e",
+    "location": "any",
     "name": "painter_8 name",
     "note": "painter_8 note",
     "restartable": false,
@@ -931,13 +891,13 @@
       "Started": [],
       "Success": [
         {
-          "id": "painter_8_Reward_0",
+          "id": "672e33d7328feb52bd28d5d9",
           "index": 0,
           "type": "Experience",
           "value": "6500"
         },
         {
-          "id": "painter_8_Reward_1",
+          "id": "672e33d832bdd4504eee296f",
           "index": 1,
           "target": "668aaff35fd574b6dcc4a686",
           "type": "TraderStanding",
@@ -945,46 +905,46 @@
         },
         {
           "findInRaid": true,
-          "id": "painter_8_Reward_2",
+          "id": "672e33da4a034853ff35fdbb",
           "index": 2,
           "items": [
             {
-              "_id": "painter_8_Reward_Roubles",
+              "_id": "672e33db64495f03c3642ee2",
               "_tpl": "5449016a4bdc2d6f028b456f",
               "upd": {
                 "StackObjectsCount": 120000
               }
             }
           ],
-          "target": "painter_8_Reward_Roubles",
+          "target": "672e33db64495f03c3642ee2",
           "type": "Item",
           "value": "120000"
         },
         {
-          "id": "painter_8_Reward_3",
+          "id": "672e33e1d44cac74b631eec5",
           "index": 3,
           "items": [
             {
-              "_id": "PA_556_M855A1",
+              "_id": "672e284a363b798192b802af",
               "_tpl": "54527ac44bdc2d36668b4567"
             }
           ],
           "loyaltyLevel": 4,
-          "target": "PA_556_M855A1",
+          "target": "672e284a363b798192b802af",
           "traderId": "668aaff35fd574b6dcc4a686",
           "type": "AssortmentUnlock"
         },
         {
-          "id": "painter_8_Reward_4",
+          "id": "672e33e5031e7626d247b917",
           "index": 4,
           "items": [
             {
-              "_id": "PA_762_M61",
+              "_id": "672e289bb4096716fcb918a7",
               "_tpl": "5a6086ea4f39f99cd479502f"
             }
           ],
           "loyaltyLevel": 4,
-          "target": "PA_762_M61",
+          "target": "672e289bb4096716fcb918a7",
           "traderId": "668aaff35fd574b6dcc4a686",
           "type": "AssortmentUnlock"
         }
