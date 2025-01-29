@@ -24,8 +24,8 @@ import * as configJson from "../config.json";
 import * as baseJson from "../db/base.json";
 import * as assortJson from "../db/assort.json";
 import * as path from "path";
+import * as fs from "fs";
 
-const fs = require('fs');
 const modPath = path.normalize(path.join(__dirname, '..'));
 
 class painter implements IPreSptLoadMod, IPostDBLoadMod {
@@ -83,7 +83,7 @@ class painter implements IPreSptLoadMod, IPostDBLoadMod {
     }
 
     public postDBLoad(container: DependencyContainer): void {
-        this.configServer = container.resolve("ConfigServer")
+        this.configServer = container.resolve<ConfigServer>("ConfigServer");
         this.ragfairConfig = this.configServer.getConfig(ConfigTypes.RAGFAIR)
 
         const configServer: ConfigServer = container.resolve<ConfigServer>("ConfigServer")
@@ -101,18 +101,17 @@ class painter implements IPreSptLoadMod, IPostDBLoadMod {
             const repeatableQuests = databaseServer.getTables().templates.repeatableQuests;
             const rqLocales = databaseServer.getTables().locales.global.en;
 
-            // Ensure the properties exist before setting their values
-            if (repeatableQuests.Elimination) {
-                repeatableQuests.Elimination.successMessageText = "A damn beast you are, hehe. Good work, here's your share.";
-                repeatableQuests.Elimination.description = "I have a mission for you. I need you to eliminate some trash from Tarkov's streets. You up for it?";
+            if (repeatableQuests.templates.Elimination) {
+                repeatableQuests.templates.Elimination.successMessageText = "A damn beast you are, hehe. Good work, here's your share.";
+                repeatableQuests.templates.Elimination.description = "I have a mission for you. I need you to eliminate some trash from Tarkov's streets. You up for it?";
             }
-            if (repeatableQuests.Completion) {
-                repeatableQuests.Completion.successMessageText = "There you are! You got everything? Good stuff.";
-                repeatableQuests.Completion.description = "I have a mission for you. I need you to gather some items for me. You up for it?";
+            if (repeatableQuests.templates.Completion) {
+                repeatableQuests.templates.Completion.successMessageText = "There you are! You got everything? Good stuff.";
+                repeatableQuests.templates.Completion.description = "I have a mission for you. I need you to gather some items for me. You up for it?";
             }
-            if (repeatableQuests.Exploration) {
-                repeatableQuests.Exploration.successMessageText = "Marvelous, young man. Thank you for some fine work.";
-                repeatableQuests.Exploration.description = "Ah, mercenary, do you want to do a good deed? My clients are asking to ensure a safe area to conduct a specific secret operation. I would like to appoint you for this, as you are the most competent of the local workers. You will have to survey the area and report back to me. Good luck.";
+            if (repeatableQuests.templates.Exploration) {
+                repeatableQuests.templates.Exploration.successMessageText = "Marvelous, young man. Thank you for some fine work.";
+                repeatableQuests.templates.Exploration.description = "Ah, mercenary, do you want to do a good deed? My clients are asking to ensure a safe area to conduct a specific secret operation. I would like to appoint you for this, as you are the most competent of the local workers. You will have to survey the area and report back to me. Good luck.";
             }
 
             // Update localization files
