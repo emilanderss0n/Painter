@@ -40,11 +40,9 @@ The mod includes a `config.json` file with the following options:
 
 - **`enableRepeatableQuests`**: Enables daily/weekly repeatable quests for Painter
 - **`enableLootBoxes`**: Enables mystery boxes in Painter's assortment
-  - ⚠️ **Warning**: Do NOT disable if you have mystery boxes in your stash!
+  - **Warning**: Do NOT disable if you have mystery boxes in your stash!
 
 ## 👤 Trader Information
-
-![Painter Loyalty Levels](https://i.imgur.com/7Tr6tbC.png)
 
 **Trader ID**: `668aaff35fd574b6dcc4a686`  
 **Location**: Tarkov Suburbs  
@@ -104,9 +102,8 @@ You can easily integrate your custom items by adding them to the trader's assort
 ## 🎯 Recommended Companion Mods
 
 While Painter works standalone, it's designed to complement weapon cosmetic and customization mods. Consider pairing it with:
-- Weapon skin mods
-- Custom weapon part mods  
-- Other trader expansion mods
+
+![Painter Recommended Mods](https://i.imgur.com/7Tr6tbC.png)
 
 ## 🐛 Known Issues & Support
 
