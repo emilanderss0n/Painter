@@ -19,6 +19,7 @@ import { IInventoryConfig } from "@spt/models/spt/config/IInventoryConfig";
 import { DatabaseService } from "@spt/services/DatabaseService";
 import { CustomItemService } from "@spt/services/mod/CustomItemService";
 import { NewItemFromCloneDetails } from "@spt/models/spt/mod/NewItemDetails";
+import { IItemConfig } from "@spt/models/spt/config/IItemConfig";
 
 import * as configJson from "../config.json";
 import * as baseJson from "../db/base.json";
@@ -172,8 +173,8 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
         const dodoFigurine: NewItemFromCloneDetails = {
             itemTplToClone: "59e3647686f774176a362507",
             overrideProperties: {
-                Name: "Golden Poop figurine",
-                ShortName: "Golden",
+                Name: "Golden Turd figurine",
+                ShortName: "Turd",
                 Description: "Awarded to the master of annoying tasks, it is said that it was made from the golden poop of a dodo bird.",
                 Prefab: {
                     "path": "dodo338383899.bundle",
@@ -190,8 +191,8 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
             handbookParentId: "5b47574386f77428ca22b2f1",
             locales: {
                 en: {
-                    name: "Golden Poop figurine",
-                    shortName: "Golden",
+                    name: "Golden Turd figurine",
+                    shortName: "Turd",
                     description: "Awarded to the master of annoying tasks, it is said that it was made from the golden poop of a dodo bird."
                 }
             }
@@ -200,6 +201,16 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
         customItem.createItemFromClone(batmanFigurine);
         customItem.createItemFromClone(dodoFigurine);
         this.logger.info("Painter custom items added");
+
+        // Prevent dodoFigurine from being lootable (no bots, containers, or loose loot)
+        const itemConfig: IItemConfig = configServer.getConfig(ConfigTypes.ITEM);
+        const dodoFigurineId = "684db00229850b2f1f7832c1"; // ID of the dodoFigurine
+        
+        // Add to lootable item blacklist to prevent it from spawning in any loot containers or loose loot
+        if (!itemConfig.lootableItemBlacklist.includes(dodoFigurineId)) 
+        {
+            itemConfig.lootableItemBlacklist.push(dodoFigurineId);
+        }
 
         if (configJson.enableLootBoxes) 
         {
@@ -531,6 +542,7 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
 
         this.loadFiles(`${modPath}/db/quests/`, [".json"], function (filePath)
         {
+            // eslint-disable-next-line @typescript-eslint/no-var-requires
             const item = require(filePath)
             if (Object.keys(item).length < 1) return
             for (const quest in item)
@@ -550,6 +562,7 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
         {
             this.loadFiles(`${modPath}/db/locales/${locale}`, [".json"], function (filePath)
             {
+                // eslint-disable-next-line @typescript-eslint/no-var-requires
                 const localeFile = require(filePath)
                 if (Object.keys(localeFile).length < 1) return
                 for (const currentItem in localeFile)

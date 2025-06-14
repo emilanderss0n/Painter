@@ -1337,5 +1337,124 @@
     "successMessageText": "painter_9 successMessageText",
     "traderId": "668aaff35fd574b6dcc4a686",
     "type": "Elimination"
+  },
+  "684dcdde28c416fb7410b974": {
+    "QuestName": "The Final Touch",
+    "_id": "684dcdde28c416fb7410b974",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_10 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684dce0db74a157e696d440c",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["57347c1124597737fb1379e3"],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684dce0b8b85219db1b218ef",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": ["5734795124597738002c6176"],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684dceb1a57b9bab0b8d266d",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "6848f88e54cef2b50b3a2589",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_10 declinePlayerMessage",
+    "description": "painter_10 description",
+    "failMessageText": "painter_10 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_10_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_10 name",
+    "note": "painter_10 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "684dce3088036780dd7c7b28",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 20000
+        },
+        {
+          "id": "684dce3863f0eadbf9660a58",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.04
+        },
+        {
+          "findInRaid": true,
+          "id": "684dcf692a8dc96f91a487d2",
+          "index": 2,
+          "items": [
+            {
+              "_id": "684dcf60f383208942ac6142",
+              "_tpl": "684db00229850b2f1f7832c1",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684dcf60f383208942ac6142",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_10 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_10 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "PickUp"
   }
 }
