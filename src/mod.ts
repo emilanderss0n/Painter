@@ -28,17 +28,20 @@ import * as fs from "fs";
 
 const modPath = path.normalize(path.join(__dirname, ".."));
 
-class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
+class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod 
+{
     mod: string
     logger: ILogger
     private configServer: ConfigServer
     private ragfairConfig: IRagfairConfig
 
-    constructor() {
+    constructor() 
+    {
         this.mod = "aMoxoPixel-Painter"
     }
 
-    public preSptLoad(container: DependencyContainer): void {
+    public preSptLoad(container: DependencyContainer): void 
+    {
         this.logger = container.resolve<ILogger>("WinstonLogger");
 
         const PreSptModLoader: PreSptModLoader = container.resolve<PreSptModLoader>("PreSptModLoader");
@@ -47,11 +50,13 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         const traderConfig: ITraderConfig = configServer.getConfig<ITraderConfig>(ConfigTypes.TRADER);
         const questConfig: IQuestConfig = configServer.getConfig<IQuestConfig>(ConfigTypes.QUEST);
 
-        if (!traderConfig.moddedTraders) {
+        if (!traderConfig.moddedTraders) 
+        {
             traderConfig.moddedTraders = { clothingService: [] };
         }
 
-        if (configJson.enableRepeatableQuests) {
+        if (configJson.enableRepeatableQuests) 
+        {
             const PainterRepeatQuests = {
                 traderId: "668aaff35fd574b6dcc4a686",
                 name: "painter",
@@ -82,7 +87,8 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         Traders["668aaff35fd574b6dcc4a686"] = "668aaff35fd574b6dcc4a686";
     }
 
-    public postDBLoad(container: DependencyContainer): void {
+    public postDBLoad(container: DependencyContainer): void 
+    {
         this.configServer = container.resolve<ConfigServer>("ConfigServer");
         this.ragfairConfig = this.configServer.getConfig(ConfigTypes.RAGFAIR)
 
@@ -96,19 +102,23 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         const inventoryConfig: IInventoryConfig = configServer.getConfig(ConfigTypes.INVENTORY)
         const tables: IDatabaseTables = databaseService.getTables()
 
-        if (configJson.enableRepeatableQuests) {
+        if (configJson.enableRepeatableQuests) 
+        {
             const repeatableQuests = databaseServer.getTables().templates.repeatableQuests;
             const rqLocales = databaseServer.getTables().locales.global.en;
 
-            if (repeatableQuests.templates.Elimination) {
+            if (repeatableQuests.templates.Elimination) 
+            {
                 repeatableQuests.templates.Elimination.successMessageText = "A damn beast you are, hehe. Good work, here's your share.";
                 repeatableQuests.templates.Elimination.description = "I have a mission for you. I need you to eliminate some trash from Tarkov's streets. You up for it?";
             }
-            if (repeatableQuests.templates.Completion) {
+            if (repeatableQuests.templates.Completion) 
+            {
                 repeatableQuests.templates.Completion.successMessageText = "There you are! You got everything? Good stuff.";
                 repeatableQuests.templates.Completion.description = "I have a mission for you. I need you to gather some items for me. You up for it?";
             }
-            if (repeatableQuests.templates.Exploration) {
+            if (repeatableQuests.templates.Exploration) 
+            {
                 repeatableQuests.templates.Exploration.successMessageText = "Marvelous, young man. Thank you for some fine work.";
                 repeatableQuests.templates.Exploration.description = "Ah, mercenary, do you want to do a good deed? My clients are asking to ensure a safe area to conduct a specific secret operation. I would like to appoint you for this, as you are the most competent of the local workers. You will have to survey the area and report back to me. Good luck.";
             }
@@ -154,9 +164,9 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
                 en: {
                     name: "Batman figurine",
                     shortName: "Batman",
-                    description: "Rare larger figurine of Batman, a superhero of the American comic book publisher DC Comics, Batman.",
-                },
-            },
+                    description: "Rare larger figurine of Batman, a superhero of the American comic book publisher DC Comics, Batman."
+                }
+            }
         };
 
         const dodoFigurine: NewItemFromCloneDetails = {
@@ -182,16 +192,17 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
                 en: {
                     name: "Golden Poop figurine",
                     shortName: "Golden",
-                    description: "Awarded to the master of annoying tasks, it is said that it was made from the golden poop of a dodo bird.",
-                },
-            },
+                    description: "Awarded to the master of annoying tasks, it is said that it was made from the golden poop of a dodo bird."
+                }
+            }
         };
 
         customItem.createItemFromClone(batmanFigurine);
         customItem.createItemFromClone(dodoFigurine);
         this.logger.info("Painter custom items added");
 
-        if (configJson.enableLootBoxes) {
+        if (configJson.enableLootBoxes) 
+        {
             const mysteryBoxOne: NewItemFromCloneDetails = {
                 itemTplToClone: "6489b2b131a2135f0d7d0fcb",
                 overrideProperties: {
@@ -218,9 +229,9 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
                     en: {
                         name: "Painter's Special Delivery",
                         shortName: "Painter Lootbox",
-                        description: "A lootbox filled with 20 items, including some of the most sought after barter items. Get a LEDX or go broke. The choise is yours.",
-                    },
-                },
+                        description: "A lootbox filled with 20 items, including some of the most sought after barter items. Get a LEDX or go broke. The choise is yours."
+                    }
+                }
             };
 
             customItem.createItemFromClone(mysteryBoxOne);
@@ -438,9 +449,9 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
                     en: {
                         name: "Painter's War Box",
                         shortName: "Painter Warbox",
-                        description: "A lootbox filled with various items, some of the most sought after military items.",
-                    },
-                },
+                        description: "A lootbox filled with various items, some of the most sought after military items."
+                    }
+                }
             };
 
             customItem.createItemFromClone(mysteryBoxTwo);
@@ -448,27 +459,32 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         }
     }
 
-    private registerProfileImage(preSptModLoader: PreSptModLoader, imageRouter: ImageRouter): void {
+    private registerProfileImage(preSptModLoader: PreSptModLoader, imageRouter: ImageRouter): void
+    {
         const imageFilepath = `./${preSptModLoader.getModPath(this.mod)}res`
 
         imageRouter.addRoute(baseJson.avatar.replace(".jpg", ""), `${imageFilepath}/painter.jpg`)
     }
 
-    private setupTraderUpdateTime(traderConfig: ITraderConfig): void {
+    private setupTraderUpdateTime(traderConfig: ITraderConfig): void 
+    {
         const traderRefreshRecord: IUpdateTime = { traderId: baseJson._id, seconds: { min: 2000, max: 6600 } }
 
         traderConfig.updateTime.push(traderRefreshRecord)
     }
 
-    private setupTraderServices(traderConfig: ITraderConfig): void {
+    private setupTraderServices(traderConfig: ITraderConfig): void
+    {
         const traderId = baseJson._id;
-        if (!traderConfig.moddedTraders) {
+        if (!traderConfig.moddedTraders)
+        {
             traderConfig.moddedTraders = { clothingService: [] };
         }
         traderConfig.moddedTraders.clothingService.push(traderId);
     }
 
-    private addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil): void {
+    private addTraderToDb(traderDetailsToAdd: any, tables: IDatabaseTables, jsonUtil: JsonUtil): void
+    {
         tables.traders[traderDetailsToAdd._id] = {
             assort: jsonUtil.deserialize(jsonUtil.serialize(assortJson)) as ITraderAssort,
             base: jsonUtil.deserialize(jsonUtil.serialize(traderDetailsToAdd)) as ITraderBase,
@@ -484,9 +500,11 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         }
     }
 
-    private addTraderToLocales(tables: IDatabaseTables, fullName: string, firstName: string, nickName: string, location: string, description: string) {
+    private addTraderToLocales(tables: IDatabaseTables, fullName: string, firstName: string, nickName: string, location: string, description: string)
+    {
         const locales = Object.values(tables.locales.global) as Record<string, string>[]
-        for (const locale of locales) {
+        for (const locale of locales)
+        {
             locale[`${baseJson._id} FullName`] = fullName
             locale[`${baseJson._id} FirstName`] = firstName
             locale[`${baseJson._id} Nickname`] = nickName
@@ -495,38 +513,47 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         }
     }
 
-    public loadFiles(dirPath, extName, cb) {
+    public loadFiles(dirPath, extName, cb)
+    {
         if (!fs.existsSync(dirPath)) return
         const dir = fs.readdirSync(dirPath, { withFileTypes: true })
-        dir.forEach(item => {
+        dir.forEach(item =>
+        {
             const itemPath = path.normalize(`${dirPath}/${item.name}`)
             if (item.isDirectory()) this.loadFiles(itemPath, extName, cb)
             else if (extName.includes(path.extname(item.name))) cb(itemPath)
         });
     }
 
-    public importQuests(tables) {
+    public importQuests(tables)
+    {
         let questCount = 0
 
-        this.loadFiles(`${modPath}/db/quests/`, [".json"], function (filePath) {
+        this.loadFiles(`${modPath}/db/quests/`, [".json"], function (filePath)
+        {
             const item = require(filePath)
             if (Object.keys(item).length < 1) return
-            for (const quest in item) {
+            for (const quest in item)
+            {
                 tables.templates.quests[quest] = item[quest]
                 questCount++
             }
         })
     }
 
-    public importQuestLocales(tables) {
+    public importQuestLocales(tables)
+    {
         const serverLocales = ["ch", "cz", "en", "es", "es-mx", "fr", "ge", "hu", "it", "jp", "pl", "po", "ru", "sk", "tu"]
         const addedLocales = {}
 
-        for (const locale of serverLocales) {
-            this.loadFiles(`${modPath}/db/locales/${locale}`, [".json"], function (filePath) {
+        for (const locale of serverLocales)
+        {
+            this.loadFiles(`${modPath}/db/locales/${locale}`, [".json"], function (filePath)
+            {
                 const localeFile = require(filePath)
                 if (Object.keys(localeFile).length < 1) return
-                for (const currentItem in localeFile) {
+                for (const currentItem in localeFile)
+                {
                     tables.locales.global[locale][currentItem] = localeFile[currentItem]
                     if (!Object.keys(addedLocales).includes(locale)) addedLocales[locale] = {}
                     addedLocales[locale][currentItem] = localeFile[currentItem]
@@ -534,10 +561,13 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
             })
         }
 
-        for (const locale of serverLocales) {
+        for (const locale of serverLocales)
+        {
             if (locale == "en") continue
-            for (const englishItem in addedLocales["en"]) {
-                if (locale in addedLocales) {
+            for (const englishItem in addedLocales["en"])
+            {
+                if (locale in addedLocales)
+                {
                     if (englishItem in addedLocales[locale]) continue
                 }
                 if (tables.locales.global[locale] != undefined) tables.locales.global[locale][englishItem] = addedLocales["en"][englishItem]
@@ -545,10 +575,12 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod {
         }
     }
 
-    public routeQuestImages(imageRouter) {
+    public routeQuestImages(imageRouter)
+    {
         let imageCount = 0
 
-        this.loadFiles(`${modPath}/res/quests/`, [".png", ".jpg"], function (filePath) {
+        this.loadFiles(`${modPath}/res/quests/`, [".png", ".jpg"], function (filePath)
+        {
             imageRouter.addRoute(`/files/quest/icon/${path.basename(filePath, path.extname(filePath))}`, filePath);
             imageCount++
         })
