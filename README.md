@@ -114,14 +114,13 @@ While Painter works standalone, it's designed to complement weapon cosmetic and 
 ## 💰 Support the Developer
 
 If you enjoy this mod, consider supporting the creator:
-- **Ko-Fi**: [Support Link]
+- **Ko-Fi**: https://ko-fi.com/moxopixel
 - **Feedback**: Share your experience and suggestions
 
 ## 📝 Credits
 
 - **Author**: MoxoPixel
 - **Special Thanks**: Mighty_Condor for development assistance
-- **License**: MIT
 
 ---
 
