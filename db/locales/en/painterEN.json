@@ -61,6 +61,9 @@
   "painter_10 description": "You... you actually did it. You made my life—*infinitely*—easier. One final task and I'm out of this forsaken dump. I just need a few more parts to finish my masterpiece: a makeshift helicopter-boat. Don't ask how it works. Just bring the stuff. I *swear* you'll be handsomely rewarded. Like, legendary-tier reward.",
   "painter_10 failMessageText": "",
   "painter_10 successMessageText": "You absolute unit. A true hero. A god among men. Now, about that reward… So, funny story, I have no idea how to build a helicopter. Or a boat. Or anything like that, really. I just liked the idea. The items are kinda worthless now. I'm useless. But hey! Here's a golden turd. Yup. It's shiny. It's... symbolic. You get it. Anyway, thanks and sorry forever.",
-  "684dce0db74a157e696d440c": "Find and handover this item",
-  "684dce0b8b85219db1b218ef": "Find and handover this item"
+  "684dce0db74a157e696d440c": "Find and handover Propane tank (5L)",
+  "684de44841a695c11db3996c": "Find and handover Metal spare parts",
+  "684de575d34628e3dfc940ff": "Find and handover Printed circuit board",
+  "684de443e988e5c59b5ec688": "Find and handover Electric motor",
+  "684de44575288597828a1728": "Find and handover Advanced current converter"
 }

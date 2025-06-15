@@ -182,7 +182,8 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
                 },
                 CanRequireOnRagfair: false,
                 CanSellOnRagfair: false,
-                Weight: 69
+                Weight: 69,
+                ExaminedByDefault: false
             },
             parentId: "57864a3d24597754843f8721",
             newId: "684db00229850b2f1f7832c1",
@@ -204,7 +205,7 @@ class PainterTrader implements IPreSptLoadMod, IPostDBLoadMod
 
         // Prevent dodoFigurine from being lootable (no bots, containers, or loose loot)
         const itemConfig: IItemConfig = configServer.getConfig(ConfigTypes.ITEM);
-        const dodoFigurineId = "684db00229850b2f1f7832c1"; // ID of the dodoFigurine
+        const dodoFigurineId = "684db00229850b2f1f7832c1";
         
         // Add to lootable item blacklist to prevent it from spawning in any loot containers or loose loot
         if (!itemConfig.lootableItemBlacklist.includes(dodoFigurineId)) 
