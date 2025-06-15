@@ -99,7 +99,7 @@ export class CustomItemsManager
 
         customItemService.createItemFromClone(batmanFigurine);
         customItemService.createItemFromClone(dodoFigurine);
-        this.logger.info("Painter custom figurines created");
+        this.logger.info("Painter custom items added");
 
         // Add figurines to Hall of Fame
         this.addToHallOfFame(tables, "672e2e75d78fe9e90c8cb393", "655c67782a1356436041c9c5", "Batman figurine");
@@ -186,7 +186,7 @@ export class CustomItemsManager
         };
 
         customItemService.createItemFromClone(mysteryBoxTwo);
-        this.logger.info("Painter loot boxes created");
+        this.logger.info("Painter loot boxes added");
     }
 
     /**
