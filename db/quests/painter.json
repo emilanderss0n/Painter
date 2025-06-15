@@ -1562,7 +1562,7 @@
           },
           "parentId": "",
           "recoil": {
-            "compareMethod": "<=",
+            "compareMethod": ">=",
             "value": 0
           },
           "target": [
