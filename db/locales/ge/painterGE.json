@@ -56,5 +56,19 @@
   "painter_9 successMessageText": "Starke Arbeit, Dunkler Ritter! Du hast bewiesen, dass du den Umhang verdienst. Mit der Batman-Figur kann ich mein Projekt endlich abschließen. Tarkov ist dank dir ein Stück sicherer. Hier deine Belohnung – die Stadt sagt danke.",
   "6848f9c9d567f37e6b729842": "Finde Batman-Figur im Raid",
   "6848f9de85ccce5e3a78c9e9": "Übergib die Batman-Figur",
-  "6848f99d34b6c6122c735e05": "Eliminiere 20 Scavs"
+  "6848f99d34b6c6122c735e05": "Eliminiere 20 Scavs",
+  "painter_10 name": "Der Letzte Schliff",
+  "painter_10 description": "Du... du hast es wirklich geschafft. Du hast mein Leben—*unendlich*—leichter gemacht. Eine letzte Aufgabe und ich bin raus aus diesem verfluchten Drecksloch. Ich brauche nur noch ein paar Teile, um mein Meisterwerk zu vollenden: einen improvisierten Helikopter-Boot. Frag nicht, wie das funktioniert. Bring einfach das Zeug. Ich *schwöre*, du wirst fürstlich belohnt. Wie, legendäre Belohnung.",
+  "painter_10 failMessageText": "",
+  "painter_10 successMessageText": "Du absoluter Held. Ein wahrer Champion. Ein Gott unter Menschen. Nun, was die Belohnung angeht... Also, lustige Geschichte: Ich hab keine Ahnung, wie man einen Helikopter baut. Oder ein Boot. Oder überhaupt sowas. Die Idee hat mir nur gefallen. Die Teile sind jetzt ziemlich wertlos. Ich bin nutzlos. Aber hey! Hier ist ein goldener Haufen. Jup. Er glänzt. Er ist... symbolisch. Du verstehst schon. Jedenfalls danke und sorry für immer.",
+  "684dce0db74a157e696d440c": "Finde und übergib Propantank (5L)",
+  "684de44841a695c11db3996c": "Finde und übergib Metallersatzteile",
+  "684de575d34628e3dfc940ff": "Finde und übergib Leiterplatte",
+  "684de443e988e5c59b5ec688": "Finde und übergib Elektromotor",
+  "684de44575288597828a1728": "Finde und übergib Erweiterte Stromwandler",
+  "painter_11 name": "Widerstand ist zwecklos",
+  "painter_11 description": "Ich brauche dich, um eine Waffe für mich zusammenzubauen. Es ist ein spezielles Projekt, das eine einzigartige Kombination von Teilen erfordert. Die Waffe wird ein mächtiges Werkzeug für meine Operationen in Tarkov sein, und ich brauche sie so schnell wie möglich einsatzbereit. Sammle die notwendigen Komponenten und bringe sie zu mir. Ich sorge dafür, dass du gut entlohnt wirst. Ich brauche eine AK-103 mit einem Magpul PMAG 30-Schuss Magazin, AK Vezhlivyy Strelok VS-24 + VS-33c Handschutz mit Gasrohr, AK Custom Arms AGS-74 PRO + Sniper Kit Pistolengriff, AK AK-EVO Schaft, OKP-7 Reflexvisier (Schwalbenschwanz). Die Waffe sollte über 80 Haltbarkeit haben. Ergonomie 65 oder höher, effektive Reichweite um die 200.",
+  "painter_11 failMessageText": "",
+  "painter_11 successMessageText": "Ausgezeichnete Arbeit! Die Waffe ist jetzt komplett und einsatzbereit. Deine Bemühungen waren von unschätzbarem Wert, und ich schätze deine Hingabe für dieses Projekt. Hier ist deine wohlverdiente Belohnung. Nutze sie weise.",
+  "684f142d6734c9fb25ceeecb": "Modifiziere eine AK-103 entsprechend den gegebenen Spezifikationen"
 }

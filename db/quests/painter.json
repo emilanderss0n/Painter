@@ -1504,5 +1504,210 @@
     "successMessageText": "painter_10 successMessageText",
     "traderId": "668aaff35fd574b6dcc4a686",
     "type": "PickUp"
+  },
+    "684f091cc78564e2180a2eb6": {
+    "QuestName": "Resistance Is Futile",
+    "_id": "684f091cc78564e2180a2eb6",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_11 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "baseAccuracy": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "conditionType": "WeaponAssembly",
+          "containsItems": [
+            "59d6272486f77466146386ff",
+            "5cf656f2d7f00c06585fb6eb",
+            "6087e663132d4d12c81fd96b",
+            "6761779c48fa5c377e06fc3f",
+            "57486e672459770abd687134"
+          ],
+          "durability": {
+            "compareMethod": ">=",
+            "value": 80
+          },
+          "dynamicLocale": false,
+          "effectiveDistance": {
+            "compareMethod": ">=",
+            "value": 200
+          },
+          "emptyTacticalSlot": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "ergonomics": {
+            "compareMethod": ">=",
+            "value": 65
+          },
+          "globalQuestCounterId": "",
+          "hasItemFromCategory": [],
+          "height": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "id": "684f142d6734c9fb25ceeecb",
+          "index": 0,
+          "magazineCapacity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "muzzleVelocity": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "parentId": "",
+          "recoil": {
+            "compareMethod": "<=",
+            "value": 0
+          },
+          "target": [
+            "5ac66d2e5acfc43b321d4b53"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "weight": {
+            "compareMethod": ">=",
+            "value": 0
+          },
+          "width": {
+            "compareMethod": ">=",
+            "value": 0
+          }
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684f0a8a5645810369b816be",
+          "index": 0,
+          "isEncoded": false,
+          "parentId": "",
+          "value": 20,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_11 declinePlayerMessage",
+    "description": "painter_11 description",
+    "failMessageText": "painter_11 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_11_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_11 name",
+    "note": "painter_11 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "684f0fb47cd29e2d9c60bde0",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 4500
+        },
+        {
+          "id": "684f0fb5cedfe173a2672c07",
+          "index": 1,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.02
+        },
+        {
+          "findInRaid": true,
+          "id": "684f0fbd8e2ba5e30d21fb47",
+          "index": 2,
+          "items": [
+            {
+              "_id": "684f0fbe29addf223dce8159",
+              "_tpl": "569668774bdc2da2298b4568",
+              "upd": {
+                "StackObjectsCount": 2000
+              }
+            }
+          ],
+          "target": "684f0fbe29addf223dce8159",
+          "type": "Item",
+          "unknown": false,
+          "value": 2000
+        },
+        {
+          "findInRaid": true,
+          "id": "684f108bccc2cc7fc44acb8c",
+          "index": 3,
+          "items": [
+            {
+              "_id": "684f1093f3fd04289157596c",
+              "_tpl": "664a5480bfcc521bad3192ca",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f1093f3fd04289157596c",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "684f1212314e81c1732445fd",
+          "index": 4,
+          "items": [
+            {
+              "_id": "684f1214153cba1ee2ac5c9f",
+              "_tpl": "6759bb94b8913ff13e049669",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f1214153cba1ee2ac5c9f",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "684f1271759e8e2c7453028d",
+          "index": 5,
+          "items": [
+            {
+              "_id": "684f126d3659ffb47b949562",
+              "_tpl": "6759e07e4ff23436160d7fed",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "684f126d3659ffb47b949562",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_11 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_11 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "WeaponAssembly"
   }
 }
