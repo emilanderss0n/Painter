@@ -1709,5 +1709,169 @@
     "successMessageText": "painter_11 successMessageText",
     "traderId": "668aaff35fd574b6dcc4a686",
     "type": "WeaponAssembly"
+  },
+  "685862c625c24fd649b370c6": {
+    "QuestName": "Moscovium",
+    "_id": "685862c625c24fd649b370c6",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "painter_12 changeQuestMessageText",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "PlaceBeacon",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68586394ca1d107631558586",
+          "index": 0,
+          "parentId": "",
+          "plantTime": 20,
+          "target": [
+            "5ac78a9b86f7741cca0bbd8d"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "gazel"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68586a67f20757f5b8193c68",
+                "status": [
+                  "Survived",
+                  "Runner"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68586a6440e59aceb7b38d61",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "68586a5b2b5553a919b2938b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68586a4d4ca5206d3e5b4c6b",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "68586a3b261431201ee4d775",
+              "target": "68586394ca1d107631558586"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68586390dc03d3e7cd5a615c",
+          "index": 0,
+          "parentId": "",
+          "status": [4],
+          "target": "684f091cc78564e2180a2eb6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "painter_12 declinePlayerMessage",
+    "description": "painter_12 description",
+    "failMessageText": "painter_12 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/painter_12_thumbnail.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "painter_12 name",
+    "note": "painter_12 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6858639946a19bb464a77089",
+          "index": 0,
+          "type": "Experience",
+          "unknown": false,
+          "value": 2500
+        },
+        {
+          "findInRaid": true,
+          "id": "6858691de15a3e7d91f7afb2",
+          "index": 1,
+          "items": [
+            {
+              "_id": "6858691faf96d6b21be96510",
+              "_tpl": "685867727d49afb420c2b29e",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "6858691faf96d6b21be96510",
+          "type": "Item",
+          "unknown": true,
+          "value": 1
+        },
+        {
+          "findInRaid": true,
+          "id": "685863a375ba1c7d9bc455ef",
+          "index": 2,
+          "items": [
+            {
+              "_id": "685863a46991e53a6c97a7c9",
+              "_tpl": "5449016a4bdc2d6f028b456f",
+              "upd": {
+                "StackObjectsCount": 31000
+              }
+            }
+          ],
+          "target": "685863a46991e53a6c97a7c9",
+          "type": "Item",
+          "unknown": false,
+          "value": 30500
+        },
+        {
+          "id": "685863a9a51f4be475e99868",
+          "index": 3,
+          "target": "668aaff35fd574b6dcc4a686",
+          "type": "TraderStanding",
+          "unknown": false,
+          "value": 0.03
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "painter_12 startedMessageText",
+    "status": 0,
+    "successMessageText": "painter_12 successMessageText",
+    "traderId": "668aaff35fd574b6dcc4a686",
+    "type": "Completion"
   }
 }

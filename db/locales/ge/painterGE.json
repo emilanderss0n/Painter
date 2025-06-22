@@ -70,5 +70,11 @@
   "painter_11 description": "Ich brauche dich, um eine Waffe für mich zusammenzubauen. Es ist ein spezielles Projekt, das eine einzigartige Kombination von Teilen erfordert. Die Waffe wird ein mächtiges Werkzeug für meine Operationen in Tarkov sein, und ich brauche sie so schnell wie möglich einsatzbereit. Sammle die notwendigen Komponenten und bringe sie zu mir. Ich sorge dafür, dass du gut entlohnt wirst. Ich brauche eine AK-103 mit einem Magpul PMAG 30-Schuss Magazin, AK Vezhlivyy Strelok VS-24 + VS-33c Handschutz mit Gasrohr, AK Custom Arms AGS-74 PRO + Sniper Kit Pistolengriff, AK AK-EVO Schaft, OKP-7 Reflexvisier (Schwalbenschwanz). Die Waffe sollte über 80 Haltbarkeit haben. Ergonomie 65 oder höher, effektive Reichweite um die 200.",
   "painter_11 failMessageText": "",
   "painter_11 successMessageText": "Ausgezeichnete Arbeit! Die Waffe ist jetzt komplett und einsatzbereit. Deine Bemühungen waren von unschätzbarem Wert, und ich schätze deine Hingabe für dieses Projekt. Hier ist deine wohlverdiente Belohnung. Nutze sie weise.",
-  "684f142d6734c9fb25ceeecb": "Modifiziere eine AK-103 entsprechend den gegebenen Spezifikationen"
+  "684f142d6734c9fb25ceeecb": "Modifiziere eine AK-103 entsprechend den gegebenen Spezifikationen",
+  "painter_12 name": "Moscovium",
+  "painter_12 description": "Ich brauche dich, um einen Signalstörer an einem bestimmten Ort in Tarkov zu platzieren. Ich denke, es wäre am besten, ihn in das Auto mit den Chemikalien auf dem Zollgelände zu legen. Dieser Störsender wird die feindliche Kommunikation unterbrechen und uns einen taktischen Vorteil verschaffen. Der Ort ist stark bewacht, also sei auf einen Kampf vorbereitet. Sobald du den Störsender platziert hast, komm zu mir zurück für deine Belohnung.",
+  "painter_12 failMessageText": "",
+  "painter_12 successMessageText": "Mission erfüllt. Der Signalstörer ist installiert, und unsere Feinde werden sich abmühen, ihre Kommunikation wiederherzustellen. Das wird uns einen erheblichen Vorteil in diesem Bereich verschaffen. Hier ist deine Belohnung für gut geleistete Arbeit. Bewahre sie sicher auf.",
+  "68586394ca1d107631558586": "Platziere einen Signalstörer im Fahrzeug",
+  "68586a4d4ca5206d3e5b4c6b": "Überlebe den Raid auf dem Zollgelände"
 }

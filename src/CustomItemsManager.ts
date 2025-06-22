@@ -97,16 +97,48 @@ export class CustomItemsManager
             }
         };
 
+        const mosFigurine: NewItemFromCloneDetails = {
+            itemTplToClone: "59e3647686f774176a362507",
+            overrideProperties: {
+                Name: "Moscovium (Material 115)",
+                ShortName: "MC-115",
+                Description: "Sealed compound made from Moscovium, a synthetic element with atomic number 115, known for its unique properties. Does it bend space and time? Who knows.",
+                Prefab: {
+                    "path": "mos115.bundle",
+                    "rcid": ""
+                },
+                CanRequireOnRagfair: false,
+                CanSellOnRagfair: false,
+                Weight: 69,
+                ExaminedByDefault: false
+            },
+            parentId: "57864a3d24597754843f8721",
+            newId: "685867727d49afb420c2b29e",
+            fleaPriceRoubles: 69,
+            handbookPriceRoubles: 69,
+            handbookParentId: "5b47574386f77428ca22b2f1",
+            locales: {
+                en: {
+                    name: "Moscovium (Material 115)",
+                    shortName: "MC-115",
+                    description: "Sealed compound made from Moscovium, a synthetic element with atomic number 115, known for its unique properties. Does it bend space and time? Who knows."
+                }
+            }
+        };
+
         customItemService.createItemFromClone(batmanFigurine);
         customItemService.createItemFromClone(dodoFigurine);
+        customItemService.createItemFromClone(mosFigurine);
         this.logger.info("Painter custom items added");
 
         // Add figurines to Hall of Fame
         this.addToHallOfFame(tables, "672e2e75d78fe9e90c8cb393", "655c67782a1356436041c9c5", "Batman figurine");
         this.addToHallOfFame(tables, "684db00229850b2f1f7832c1", "59e3647686f774176a362507", "Golden Turd figurine");
+        this.addToHallOfFame(tables, "685867727d49afb420c2b29e", "59e3647686f774176a362507", "Moscovium (Material 115)");
 
         // Prevent dodoFigurine from being lootable
         this.preventDodoFromBeingLootable(configServer);
+        this.preventMosFromBeingLootable(configServer);
     }
 
     /**
@@ -439,6 +471,18 @@ export class CustomItemsManager
         if (!itemConfig.lootableItemBlacklist.includes(dodoFigurineId)) 
         {
             itemConfig.lootableItemBlacklist.push(dodoFigurineId);
+        }
+    }
+
+    private preventMosFromBeingLootable(configServer: ConfigServer): void 
+    {
+        const itemConfig: IItemConfig = configServer.getConfig(ConfigTypes.ITEM);
+        const mosFigurineId = "685867727d49afb420c2b29e";
+        
+        // Add to lootable item blacklist to prevent it from spawning in any loot containers or loose loot
+        if (!itemConfig.lootableItemBlacklist.includes(mosFigurineId)) 
+        {
+            itemConfig.lootableItemBlacklist.push(mosFigurineId);
         }
     }
 }

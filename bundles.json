@@ -31,6 +31,14 @@
                 "shaders",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
+        },
+        {
+            "key": "mos115.bundle",
+            "dependencyKeys": [
+                "cubemaps",
+                "shaders",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
         }
     ]
 }

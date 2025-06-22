@@ -70,5 +70,11 @@
   "painter_11 description": "I need you to assemble a weapon for me. It's a special project that requires a unique combination of parts. The weapon will be a powerful tool for my operations in Tarkov, and I need it to be ready as soon as possible. Gather the necessary components and bring them to me. I'll make sure you are well compensated for your efforts. I need an AK-103 with a Magpul PMAG 30-round magazine, AK Vezhlivyy Strelok VS-24 + VS-33c handguard with gas tube, AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip, AK AK-EVO stock, OKP-7 reflex sight (Dovetail). The weapon should have durability over 80. Ergonomics 65 or over, effective distance around 200.",
   "painter_11 failMessageText": "",
   "painter_11 successMessageText": "Excellent work! The weapon is now complete and ready for action. Your efforts have been invaluable, and I appreciate your dedication to this project. Here's your well-deserved reward. Use it wisely.",
-  "684f142d6734c9fb25ceeecb": "Modify a AK-103 to comply with the given specifications"
+  "684f142d6734c9fb25ceeecb": "Modify a AK-103 to comply with the given specifications",
+  "painter_12 name": "Moscovium",
+  "painter_12 description": "I need you to place a signal jammer at a specific location in Tarkov. I think it would be best to place it in the car with the chemicals on Customs. This jammer will disrupt enemy communications and give us a tactical advantage. The location is heavily guarded, so be prepared for a fight. Once you've placed the jammer, return to me for your reward.",
+  "painter_12 failMessageText": "",
+  "painter_12 successMessageText": "Mission accomplished. The signal jammer is in place, and our enemies will be scrambling to regain their communications. This will give us a significant edge in that area. Here's your reward for a job well done. I got it from Therapist who got it from... I have no idea but... Keep it very safe.",
+  "68586394ca1d107631558586": "Place a signal jammer inside the vehicle",
+  "68586a4d4ca5206d3e5b4c6b": "Survive the raid on Customs"
 }
